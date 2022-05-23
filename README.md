@@ -11,7 +11,7 @@ https://www.notion.so/tldv/tl-dv-Full-Stack-Developer-Test-c36e48632f2b4458adbec
 
 This Task requires [Node.js](https://nodejs.org/) v10+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies
 
 ```sh
 npm install
