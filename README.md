@@ -48,7 +48,7 @@ npm start
 
 React App deployed in Heroku:
 
-https://pure-headland-57646.herokuapp.com/add
+https://pure-headland-57646.herokuapp.com/
 
 
 ## Heroku Deployment: Backend Strapi
