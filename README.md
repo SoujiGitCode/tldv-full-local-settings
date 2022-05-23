@@ -24,19 +24,18 @@ npm start
 ```
 
 ## Video Data Format
-- URL:  
-  type: string
+- URL: type: string //
   description: must be a valid Youtube URL video. For Example: https://www.youtube.com/watch?v=lE_pXfIITpI
 - Slug:
-  type: string
+  type: string //
   description: short stream recommended
 
 - Tittle:
-  type: string
+  type: string //
   description: name of the video that will be displayed over the player
 
 - isPublic:
-  type: boolean
+  type: boolean //
   description: true= will be displayed in playlist component aka public, false = will be hidden.
 
 - Thumbnail:
