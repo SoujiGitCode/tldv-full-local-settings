@@ -1,6 +1,7 @@
-# tl; dv task Full Back-Frontend
+# tl; dv task FrontEnd
+
 Ready to Run in Local
-- React Frontnd
+- React Frontend
 
 
 ## - _React Frontend_
@@ -13,9 +14,9 @@ This Task requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd frontend
 npm install
 ```
+
 Start the server.
 
 ```sh
@@ -44,9 +45,15 @@ npm start
 
 
 
-## Backend Strapi
+## Heroku Deployment: FrontEnd React
 
-In case you need it strapi api was deployed in heroku:
+React App deployed in Heroku:
+
+https://pure-headland-57646.herokuapp.com/add
+
+
+## Heroku Deployment: Backend Strapi
+Strapi API deployed in heroku:
 
 https://obscure-beyond-28397.herokuapp.com/admin/
 - user: root
