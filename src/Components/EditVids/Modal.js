@@ -2,7 +2,7 @@ import {useState} from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
 
-export default function Modal({thumbnail, tittle, url, slug, id, isPublic, setReload}) {
+export default function EditModal({thumbnail, tittle, url, slug, id, isPublic, setReload}) {
 
     const [tittleEdit, setTittleEdit] = useState(tittle)
     const [slugEdit, setSlugEdit] = useState(slug)

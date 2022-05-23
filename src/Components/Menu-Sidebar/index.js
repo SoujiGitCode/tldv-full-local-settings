@@ -1,8 +1,7 @@
+import React from "react"
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Header from './Header';
-
-import { Button, IconButton, Typography } from "@material-tailwind/react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay, faPlus, faWandMagicSparkles} from "@fortawesome/free-solid-svg-icons";
 
@@ -20,7 +19,7 @@ export default function Sidebar() {
             >
                 <div className="flex-col items-stretch min-h-full flex-nowrap px-0 relative">
                     <a href="/" className="mt-2 text-center w-full inline-block">
-                        <Typography variant="h1">tl;dv</Typography>
+                        <h1 className="text-xl font-bold" data-testid="brand">tl;dv</h1>
                     </a>
                     <div className="flex flex-col">
                         <hr className="my-4 min-w-full" />

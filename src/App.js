@@ -1,14 +1,7 @@
 import './App.scss';
-import {Fragment, useEffect, useState} from "react";
+import {Fragment} from "react";
 import Sidebar from "./Components/Menu-Sidebar";
-
 import UploadedVids from "./Components/UploadedVids";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPlay} from "@fortawesome/free-solid-svg-icons";
-import axios from "axios";
-import defaultThumbnail from "./Assets/Images/no-img.webp"
-
-import ReactPlayer from 'react-player/youtube'
 import EditVids from "./Components/EditVids";
 import {Route, Routes} from "react-router-dom";
 import AddVids from "./Components/AddVids/AddVids";
@@ -22,7 +15,6 @@ function App() {
                     {/* Sidebar */}
                     <Sidebar/>
                 </div>
-
             <div className="md:ml-64">
                 <Routes>
                     <Route path='/' element={<UploadedVids/>}/>
@@ -33,16 +25,7 @@ function App() {
                     <Route path="*" element={<UploadedVids />}/>
                 </Routes>
             </div>
-
-
-
-
-
-
-
         </Fragment>
-
-
     );
 }
 
